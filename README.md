@@ -1,5 +1,5 @@
 # Penjelasan Program
-## Praktikum Latihan 1 <a href="Praktikum Latihan1">File Latihan1</a>
+## Praktikum Latihan 1 <a href="praktikum2.py">File latihan</a>
 Menentukan bilangan terbesar dari empat bilangan yang di masukan 
 
 ## Alur Program
@@ -24,7 +24,7 @@ Menentukan bilangan terbesar dari empat bilangan yang di masukan
   <p><b> print ("bilangan besar adalah", terbesar)
 
 ### Contohnya pada bagian bawah ini :
-1. ![alt text](image.png)
+1. ![alt text](ss/image.png)
 
 
 
