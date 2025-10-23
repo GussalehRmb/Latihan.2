@@ -1,31 +1,25 @@
-# Penjelasan Program
-## Praktikum Latihan 1 <a href="praktikum2.py">File latihan</a>
-Menentukan bilangan terbesar dari empat bilangan yang di masukan 
+# Latihan 2 
+## Mengurutkan Data <a href="">Latihan2</a>
+Membuat program Python untuk <b>mengurutkan beberapa data angka</b> berdasarkan nilai input (menimal tiga angka) secara berurutan <b>dari nilai kecil.</b>
 
-## Alur Program
-### 1. Input data dari empat bilangan yang di masukan
-   <pre>bil1 = int(input("masukan bilangan pertama:" ))
-   bil2 = int(input("masukan bilangan kedua:" ))
-   bil3 = int(input("masukan bilangan ketiga:" ))
-   bil4 = int(input("masukan bilangan keempat:" ))</pre>
-### 2. Proses perbandingan
-   <ul><li>Menggunakan Struktur <strong>if-elif-else</strong> untuk membandinkan keempat bilangan tersebut dan menentukan mana yg paling besar <li>Perbandingan :
-   
-   <pre>if (bil1 > bil2 and bil1 > bil4 and bil1 > bil3):
-   terbesar = bil1
-   elif (bil2 > bil1 and bil2 > bil3 and bil2 > bil4):
-   terbesar = bil2
-   elif (bil3 > bil1 and bil3 > bil2 and bil3 > bil4):
-   terbesar = bil3
-   else :
-   terbesar = bil4</ul></pre>
-### 4. Output Hasil
-  <ul><li>Setelah menentukan bilangan terbesar, maka pada akhir akhir akan menampilkan hasilnya.
-  <p><b> print ("bilangan besar adalah", terbesar)
+## cara membuat file program 
+<pre><ul><li>Buka Visual Studio Code (VSC) di laptop
+<li>buka open folder dan buat folder baru di file explorer dan mau masukin foldernya di bagian file mana.
+<li>masukan filenya ke visual studio code.
+<li>masukan folder di VSC "Contoh, latihan2.pY</pre>
 
-### Contohnya pada bagian bawah ini :
-1. ![alt text](ss/image.png)
+## Menginput Program
+<pre><li>masukan kode programnya dan jalankan programnya.
+<li>tetukan hasil programnya di bagian terminal.
+<li><b>contoh pada gambar di bawah ini.</pre>
+![alt text](ss/image.png)
 
+## Penjelasan Bagian Program
+<pre><li>| Bagian Kode | Fungsi                                           |
+| ----------- | ------------------------------------------------ |
+| `input()`   | Menerima data dari pengguna                      |
+| `int()`     | Mengubah input menjadi angka (integer)           |
+| `list`      | Menyimpan beberapa data angka                    |
+| `sort()`    | Mengurutkan data dari nilai terkecil ke terbesar |
+| `*data`     | Menampilkan semua isi list tanpa tanda kurung    |
 
-
-  
