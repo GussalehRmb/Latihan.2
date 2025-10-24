@@ -1,5 +1,5 @@
 # Latihan 2 
-## Mengurutkan Data <a href="">Latihan2</a>
+## Mengurutkan Data <a href="https://github.com/GussalehRmb/Latihan.2/blob/main/latihan2.py">Latihan2</a>
 Membuat program Python untuk <b>mengurutkan beberapa data angka</b> berdasarkan nilai input (menimal tiga angka) secara berurutan <b>dari nilai kecil.</b>
 
 ## cara membuat file program 
