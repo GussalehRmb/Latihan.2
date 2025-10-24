@@ -1,9 +1,12 @@
-bil1 = int(input("Bilangan ke-1: "))
-bil2 = int(input("Bilangan ke-2: "))
-bil3 = int(input("Bilangan ke-3: "))
+print("Program mengurutkan data")
 
-data = [bil1, bil2, bil3]
+n = int(input("Masukkan jumlah bilangan (minimal 3): "))
 
-data.sort()
+bilangan = []
+for i in range(n):
+    angka = int(input(f"Bilangan ke-{i+1}: "))
+    bilangan.append(angka)
 
-print("Urutan bilangan:", *data)
+bilangan.sort()
+
+print("Urutan bilangan:", *bilangan)
